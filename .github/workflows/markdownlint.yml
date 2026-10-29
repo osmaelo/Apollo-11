@@ -5,6 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out code
-      uses: actions/checkout@v2
-    - name: Run mdl
-      uses: actionshub/markdownlint@2.0.2
+      uses: actions/checkout@v6
+    - name: Lint markdown
+      uses: DavidAnson/markdownlint-cli2-action@v19
+      with:
+        config: .markdownlint.yml
+        globs: '*.md,translations/*.md,Comanche055/*.md,Luminary099/*.md'
+        separator: ','

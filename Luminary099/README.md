@@ -8,7 +8,7 @@ The contents of the "Luminary099" files, in general, are transcribed from a digi
 
 Notations on this document read, in part:
 
-```
+```text
 ASSEMBLE REVISION 001 OF AGC PROGRAM LMY99 BY NASA 2021112-061
 16:27 JULY 14,1969
 [Note that this is the date the hardcopy was made,
@@ -121,7 +121,7 @@ What follows is simply a bunch of file-includes for the individual code chunks. 
 | [Q_R-AXIS_RCS_AUTOPILOT.agc]                  | 1442-1459   |
 | [TJET_LAW.agc]                                | 1460-1469   |
 | [KALMAN_FILTER.agc]                           | 1470-1471   |
-| [TRIM_GIMBAL_CNTROL_SYSTEM.agc]               | 1472-1484   |
+| [TRIM_GIMBAL_CONTROL_SYSTEM.agc]               | 1472-1484   |
 | [AOSTASK_AND_AOSJOB.agc]                      | 1485-1506   |
 | [SPS_BACK-UP_RCS_CONTROL.agc]                 | 1507-1510   |
 
@@ -218,6 +218,6 @@ What follows is simply a bunch of file-includes for the individual code chunks. 
 [Q_R-AXIS_RCS_AUTOPILOT.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/Q_R-AXIS_RCS_AUTOPILOT.agc
 [TJET_LAW.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/TJET_LAW.agc
 [KALMAN_FILTER.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/KALMAN_FILTER.agc
-[TRIM_GIMBAL_CNTROL_SYSTEM.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/TRIM_GIMBAL_CNTROL_SYSTEM.agc
+[TRIM_GIMBAL_CONTROL_SYSTEM.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/TRIM_GIMBAL_CONTROL_SYSTEM.agc
 [AOSTASK_AND_AOSJOB.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/AOSTASK_AND_AOSJOB.agc
 [SPS_BACK-UP_RCS_CONTROL.agc]:https://github.com/chrislgarry/Apollo-11/blob/master/Luminary099/SPS_BACK-UP_RCS_CONTROL.agc
